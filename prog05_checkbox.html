@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="efectos.css" rel="stylesheet" type="text/css">
+        <title>Animales</title>
+        <script src="prog05_checkbox.js" type="text/JavaScript"></script>
+    </head>
+    <body><center>
+        <h1 class="encabezado">Funcionamieto del Checkbox</h1>
+        <br></br>
+        <table border="3" width="70%">
+            <form name="animales">
+            <tr align="center">
+                <td><p>Selecciona tus animales favoritos, pueden ser mas de uno</p></td>
+                <td>
+                    <table width="60%">
+                        <tr>
+                            <td><input name="a1" type="Checkbox"></td>
+                            <td><p>Perro</p></td>
+                        </tr>
+                        <tr>
+                            <td><input name="a2" type="Checkbox"></td>
+                            <td><p>Gato</p></td>
+                        </tr>
+                        <tr>
+                            <td><input name="a3" type="Checkbox"></td>
+                            <td><p>Pollo</p></td>
+                        </tr>
+                        <tr>
+                            <td><input name="a4" type="Checkbox"></td>
+                            <td><p>Pato</p></td>
+                        </tr>
+                        <tr>
+                            <td><input name="a5" type="Checkbox"></td>
+                            <td><p>Pez</p></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr align="center">
+                <td><p>Animales seleccionados</p></td>
+                <td><textarea name="as" cols="20" rows="5" class="campo" disabled="true" style="background:gray;"></textarea></td>
+            </tr>
+            <tr align="center">
+                <td><input type="button" name="b_ejecutar" class="boton_azul" value="Ejecutar" onclick="ejecutar()"></td>
+                <td><input type="reset" name="b_reinicio" class="boton_rojo" value="Reiniciar"></td>
+            </tr>
+        </form>
+        </table>
+    </center></body>
+</html>
